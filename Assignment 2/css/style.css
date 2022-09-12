@@ -1,0 +1,55 @@
+.h1 {
+  text-align: center;
+  font-weight: bold;
+}
+.round-border {
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px;
+  width: 50px;
+}
+#margin-div {
+  margin: 50px;
+  border: 1px solid #4caf50;
+}
+#padding-div {
+  padding: 70px;
+  border: 1px solid #4caf50;
+}
+.wh {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+.border-box {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+ul.a {
+  list-style-type: square;
+}
