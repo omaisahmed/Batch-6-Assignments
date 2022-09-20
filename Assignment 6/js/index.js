@@ -44,6 +44,7 @@ var questions = [
      },
 ];
 var score = 0;
+console.log("Score " + score + "/" + questions.length);
 
 for(var i = 0; i < questions.length; i++){
      var response = prompt(questions[i].question);
